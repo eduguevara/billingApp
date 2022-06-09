@@ -84,7 +84,7 @@ public class BasicApplicationTests {
     }
 
     /**
-     * Test call of create method, on weblayer. Test
+     * Test call of create method, on weblayer. Test2
      */
     @Test
     public void testFindById() throws Exception {
