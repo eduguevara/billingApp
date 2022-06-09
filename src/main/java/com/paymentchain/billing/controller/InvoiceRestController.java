@@ -59,6 +59,8 @@ public class InvoiceRestController {
     @GetMapping("/{id}")
     public InvoiceResponse get(@PathVariable String id) {
         Optional<Invoice> findById = billingRepository.findById(Long.valueOf(id));
+        // Comentario de una sola linea aquí
+         System.out.println("Comentario de una sola linea arriba"); 
         Invoice get = findById.get();
         return irspm.InvoiceToInvoiceRespose(get);
     }
